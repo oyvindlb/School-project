@@ -4,7 +4,7 @@ Created on Thu May  7 17:31:02 2020
 
 @author: Eier
 """
-#2019-04-01 00:00:00
+
 
 import pymysql
 import matplotlib.pyplot as plt
@@ -68,13 +68,8 @@ def figure_print(data_fetched, Station_ID):
     
 
 if __name__== "__main__":
-    #Stations: FGBT, FMMI
     figure_print(fetching('FGBT'), "FGBT")
     figure_print(fetching("FMMI"), "FMMI")
     
-    #EKSEMPELPLOT:
-    #figure_print(fetching("DTTD"), "DTTD")
-
-
 
 
